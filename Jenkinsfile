@@ -9,9 +9,9 @@ git 'url'
 stage('Publish'){
 steps{
 publishHTML([
-allowmissing:true,
-alwaysLinbkToLastBuild:false,
-KeepAll:false,
+allowMissing:true,
+alwaysLinkToLastBuild:false,
+keepAll:false,
 reportDir:'.',
 reportFiles:'Index.html',
 reportName:'My Html Page'
